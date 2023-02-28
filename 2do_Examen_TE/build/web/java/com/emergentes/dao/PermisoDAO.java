@@ -4,7 +4,7 @@ import com.emergentes.modelo.Permiso;
 import java.util.List;
 
 public interface PermisoDAO {
-    
+    //sedundo commit de prueba
     public void insert(Permiso permiso) throws Exception;
     public void update(Permiso permiso) throws Exception;
     public void delete(int id) throws Exception;
