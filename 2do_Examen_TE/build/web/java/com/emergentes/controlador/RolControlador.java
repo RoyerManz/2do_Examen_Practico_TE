@@ -18,6 +18,7 @@ public class RolControlador extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+                //prueba de commit  en el repositorio github 
         try{
             Rol ro = new Rol();
             int id;
